@@ -1,4 +1,4 @@
-# 函數 large int function
+# 函數 function
 
 * 加法 +
   (big_int)
