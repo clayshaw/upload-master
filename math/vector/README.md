@@ -3,8 +3,8 @@
 * 角度 angle(vector)   
 * 角度 radius(vector)
     * 弳度量 
-* 正弦 sin(vector)  
-* 餘弦 cos(vector)  
+* 正弦 cos(vector)  
+* 餘弦 sin(vector)  
 * 正切 tan(vector)  
 * 加法 + (vector)  
 * 減法 - (vector)  
