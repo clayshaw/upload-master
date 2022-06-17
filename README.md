@@ -10,7 +10,7 @@
 * <a href="https://github.com/clayshaw/upload-master/blob/master/math/vector/">vector</a>  
     * 長度 length  
     * 角度 angle or radius  
-    * 正弦 餘弦 正切 sin cos tan  
+    * 正弦 餘弦 正切 cos sin tan  
     * 加法 addition +  
     * 減法 subtraction -  
     * 乘法 multiple * (常數)  
