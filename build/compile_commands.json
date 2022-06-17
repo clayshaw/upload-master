@@ -1,0 +1,47 @@
+[
+{
+  "directory": "E:/upload-master/build/math/matrix",
+  "command": "C:/MinGW/bin/c++.exe   -g -o CMakeFiles/matrix.dir/test.cpp.obj -c E:/upload-master/math/matrix/test.cpp",
+  "file": "E:/upload-master/math/matrix/test.cpp"
+},
+{
+  "directory": "E:/upload-master/build/math/matrix",
+  "command": "C:/MinGW/bin/c++.exe   -g -o CMakeFiles/matrix.dir/matrix.cpp.obj -c E:/upload-master/math/matrix/matrix.cpp",
+  "file": "E:/upload-master/math/matrix/matrix.cpp"
+},
+{
+  "directory": "E:/upload-master/build/math/matrix",
+  "command": "C:/MinGW/bin/c++.exe   -g -o CMakeFiles/_matrix.dir/matrix.cpp.obj -c E:/upload-master/math/matrix/matrix.cpp",
+  "file": "E:/upload-master/math/matrix/matrix.cpp"
+},
+{
+  "directory": "E:/upload-master/build/math/vector",
+  "command": "C:/MinGW/bin/c++.exe   -g -o CMakeFiles/vector.dir/test.cpp.obj -c E:/upload-master/math/vector/test.cpp",
+  "file": "E:/upload-master/math/vector/test.cpp"
+},
+{
+  "directory": "E:/upload-master/build/math/vector",
+  "command": "C:/MinGW/bin/c++.exe   -g -o CMakeFiles/vector.dir/vector.cpp.obj -c E:/upload-master/math/vector/vector.cpp",
+  "file": "E:/upload-master/math/vector/vector.cpp"
+},
+{
+  "directory": "E:/upload-master/build/math/vector",
+  "command": "C:/MinGW/bin/c++.exe   -g -o CMakeFiles/_vector.dir/vector.cpp.obj -c E:/upload-master/math/vector/vector.cpp",
+  "file": "E:/upload-master/math/vector/vector.cpp"
+},
+{
+  "directory": "E:/upload-master/build/math/big_int/big_int_t",
+  "command": "C:/MinGW/bin/c++.exe  @CMakeFiles/big_int.dir/includes_CXX.rsp -g -o CMakeFiles/big_int.dir/test.cpp.obj -c E:/upload-master/math/big_int/big_int_t/test.cpp",
+  "file": "E:/upload-master/math/big_int/big_int_t/test.cpp"
+},
+{
+  "directory": "E:/upload-master/build/math/big_int/big_int_source",
+  "command": "C:/MinGW/bin/c++.exe   -g -o CMakeFiles/_big_int.dir/big_int.cpp.obj -c E:/upload-master/math/big_int/big_int_source/big_int.cpp",
+  "file": "E:/upload-master/math/big_int/big_int_source/big_int.cpp"
+},
+{
+  "directory": "E:/upload-master/build/math/big_int/big_int_source",
+  "command": "C:/MinGW/bin/c++.exe   -g -o CMakeFiles/_big_int.dir/other.cpp.obj -c E:/upload-master/math/big_int/big_int_source/other.cpp",
+  "file": "E:/upload-master/math/big_int/big_int_source/other.cpp"
+}
+]

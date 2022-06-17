@@ -1,0 +1,2 @@
+C:/MinGW/bin/ar.exe qc ../../../../libbin/lib_big_int.a CMakeFiles/_big_int.dir/big_int.cpp.obj CMakeFiles/_big_int.dir/other.cpp.obj
+C:/MinGW/bin/ranlib.exe ../../../../libbin/lib_big_int.a
