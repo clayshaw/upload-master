@@ -1,2 +1,0 @@
-C:/MinGW/bin/ar.exe qc ../../../libbin/lib_vector.a CMakeFiles/_vector.dir/vector.cpp.obj
-C:/MinGW/bin/ranlib.exe ../../../libbin/lib_vector.a

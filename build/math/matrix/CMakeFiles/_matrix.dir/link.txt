@@ -1,2 +1,0 @@
-C:/MinGW/bin/ar.exe qc ../../../libbin/lib_matrix.a CMakeFiles/_matrix.dir/matrix.cpp.obj
-C:/MinGW/bin/ranlib.exe ../../../libbin/lib_matrix.a
