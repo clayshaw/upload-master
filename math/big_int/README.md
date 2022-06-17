@@ -1,18 +1,18 @@
 # 函數 large int function
 
-* 加法 addition  
-  operator+(big_int)
-* 減法 subtraction  
-  operator-(big_int)
-* 乘法 multiple  
-  operator*(big_int)
-* 除法 division  
-  operator/(big_int)
-* 取模 mod  
-  operator%(big_int)
-* 次方 power  
-  operator^(big_int)
-* 數字個數  
+* 加法 +
+  (big_int)
+* 減法 - 
+  (big_int)
+* 乘法 * 
+  (big_int)
+* 除法 / 
+  (big_int)
+* 取模 % 
+  (big_int)
+* 次方 ^ 
+  (big_int)
+* 數字個數 
   length()  
   
   
