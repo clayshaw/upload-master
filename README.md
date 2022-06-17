@@ -24,3 +24,4 @@
     
 #### complier  
    * MinGW
+   * C++11
