@@ -22,3 +22,5 @@
     * 乘法 multiple *  
     
     
+complier  
+   MinGW
