@@ -3,7 +3,7 @@
   * 減法 (matrix)  
   * 乘法 (matrix)  
   * 搜尋 linear_search(int x,int y)  
-     * [0][0]為第一個元素
+     * [1][1]為第一個元素
   
 # 建構函數 constructor
   * matrix();
