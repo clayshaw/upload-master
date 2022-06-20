@@ -419,8 +419,14 @@ big_int big_int::operator/(big_int num1){
             // std::cout<<"a="<<a.get()<<"\n";
             j++;
         }
-        
-        e.num+=j+'0';
+		
+        if(j>=10){
+            e.num+=j/10+'0';
+            e.num+=j%10+'0';
+        } else {
+            e.num+=j+'0';
+        }
+		
         b.num.erase(b.num.end()-1);
         // std::cout<<"e="<<e.get()<<"\n";std::cout<<"j="<<j<<"\n";
 	}
