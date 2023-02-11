@@ -80,7 +80,7 @@ root.geometry('460x240')
 root.title("Excel")
 
 
-lab1 = Label(root,text='請輸入excel檔案位置(絕對路徑)   輸入E結束程式')
+lab1 = Label(root,text='請輸入excel檔案位置(絕對路徑)')
 lab1.place(relx=0.2,rely=0.1)
 lab2 = Label(root,text='範例:  C:\\Users\\excel\\data.xlsx')
 lab2.place(relx=0.3,rely=0.2)
