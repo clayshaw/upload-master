@@ -3,6 +3,8 @@ from openpyxl.styles import Font
 import os
 import difflib
 import math
+from tkinter import *
+import tkinter.messagebox
 
 
 def cmpSame(s1,s2):
@@ -23,8 +25,6 @@ def cmpSame(s1,s2):
         return True
     else:
         return False
-
-
 
 def mainfunc(s):
     # wb = openpyxl.load_workbook(r'C:\Users\user\Desktop\workspace\python\excel\data.xlsx')
@@ -68,17 +68,54 @@ def mainfunc(s):
     wb.save(s)
     print("Done")
 
-while(1):
-    print("請輸入excel檔案位置(絕對路徑)   輸入E結束程式:"+'\n'+"範例:  C:\\Users\\excel\\data.xlsx")
-    val = input()
-    if(val=='E'):
-        break
-    if(val == "cls"):
-        os.system("cls")
-        continue
-    root, extension = os.path.splitext(val)
+
+
+
+
+#圖形化介面處理
+
+def exception(val):
+    filena, extension = os.path.splitext(val)
     if(os.path.exists(val) and extension == '.xlsx'):
         mainfunc(val)
+        anwser = tkinter.messagebox.askokcancel('Success',val+'已完成處理')
+        return False
     else:
-        print(val+"並非正確的檔案位置，請輸入正確檔案位置及檔名")
-    print("")
+        anwser = tkinter.messagebox.askokcancel('Warning',val+'並非正確的檔案位置，請輸入正確檔案位置及檔名')
+        return True
+
+
+root = Tk()
+root.geometry('460x240')
+root.title("Excel")
+
+
+lab1 = Label(root,text='請輸入excel檔案位置(絕對路徑)   輸入E結束程式')
+lab1.place(relx=0.2,rely=0.1)
+lab2 = Label(root,text='範例:  C:\\Users\\excel\\data.xlsx')
+lab2.place(relx=0.3,rely=0.2)
+
+inp1 = Entry(root)
+inp1.place(relx=0.15,rely=0.4,relwidth=0.7,relheight=0.1)
+
+btn = Button(root,text='執行',command=lambda: exception(inp1.get()))
+btn.place(relx = 0.4,rely=0.6,relwidth=0.2,relheight=0.1)
+
+root.mainloop()
+
+#--------------------------------------
+
+# while(1):
+#     print("請輸入excel檔案位置(絕對路徑)   輸入E結束程式:"+'\n'+"範例:  C:\\Users\\excel\\data.xlsx")
+#     val = input()
+#     if(val=='E'):
+#         break
+#     if(val == "cls"):
+#         os.system("cls")
+#         continue
+#     root, extension = os.path.splitext(val)
+#     if(os.path.exists(val) and extension == '.xlsx'):
+#         mainfunc(val)
+#     else:
+#         print(val+"並非正確的檔案位置，請輸入正確檔案位置及檔名")
+#     print("")
