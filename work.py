@@ -8,11 +8,6 @@ import tkinter.messagebox
 
 
 def cmpSame(s1,s2):
-    # a = difflib.SequenceMatcher(None, s1, s2).quick_ratio()
-    # if(a>0.85):
-    #     return True
-    # else:
-    #     return False
     if(len(s1)==len(s2)):
         for i in range(0,len(s1)-1):
             if(s1[i]!=s2[i]):
@@ -38,14 +33,10 @@ def mainfunc(s):
 
     for rowStr in range(2,sheet.max_row,1):
         valName.append(sheet.cell(rowStr, 1 ).value)
-        # print(sheet.cell(rowStr, 1 ).value)
     for rowNum in range(2,sheet.max_row):
         valNum.append(sheet.cell(rowNum, 2).value)
-        # print(sheet.cell(rowNum, 2).value)
     for i in range(0, len(valName)):
         cmp[valName[i]] = valNum[i]
-    # for i in range(0, len(valName)):
-    #     print(cmp[valName[i]]) 
 
     cnt = 2
     iscon = False
@@ -104,18 +95,3 @@ btn.place(relx = 0.4,rely=0.6,relwidth=0.2,relheight=0.1)
 root.mainloop()
 
 #--------------------------------------
-
-# while(1):
-#     print("請輸入excel檔案位置(絕對路徑)   輸入E結束程式:"+'\n'+"範例:  C:\\Users\\excel\\data.xlsx")
-#     val = input()
-#     if(val=='E'):
-#         break
-#     if(val == "cls"):
-#         os.system("cls")
-#         continue
-#     root, extension = os.path.splitext(val)
-#     if(os.path.exists(val) and extension == '.xlsx'):
-#         mainfunc(val)
-#     else:
-#         print(val+"並非正確的檔案位置，請輸入正確檔案位置及檔名")
-#     print("")
