@@ -55,7 +55,6 @@ def mainfunc(s):
             sheet.cell(cnt,7).value = valNum[i]
         cnt+=1
         
-    # wb.save(r'C:\Users\user\Desktop\workspace\python\excel\data1.xlsx')
     wb.save(s)
     print("Done")
 
